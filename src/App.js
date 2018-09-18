@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import CharacterCard from './CharacterCard';
 import WordCard from './WordCard';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -11,9 +9,7 @@ class App extends Component {
         {
           <WordCard value="hello"/>
         }
- </div>
-
-
+      </div>
     );
   }
 }
