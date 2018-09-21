@@ -6,7 +6,6 @@ import { Footer } from './Footer';
 
 
 
-
 const word = "HELLO"
 class App extends Component {
   constructor() {
@@ -36,37 +35,33 @@ class App extends Component {
 
       <div>
          
-         <div className="Center"><h1>CARD GAME</h1></div>
+        <div 
+          className="Center"><h1>CARD GAME</h1>
+        </div>
 
          <div className="setName">
             <p>Enter your name</p>
             <input type="text" onChange={this.setName.bind(this)} />
             <button onClick={this.begin}>Start game</button>
             <p>Welcome : {this.state.type}</p>
-
          </div>
          <br></br>
 
         <div className="page">
-          
-         <div><WordCard value = {word}/></div>
+         <div>
+           <WordCard value = {word}/>
+         </div>
          <Timer/>
-         <br></br>
-         
         </div>
         <br></br>
         
-        <div className="Center"><button onClick = {this.answer}>ANSWER HERE</button><p>{this.state.message}</p></div>
+        <div className="Center">
+          <button onClick = {this.answer}>ANSWER HERE</button><p>{this.state.message}</p>
+        </div>
           
-          
-          
-          
-
-        <div className="page"><Footer/></div>
-       
-        
-
-        
+        <div className="page">
+          <Footer/>
+        </div>
 
       </div>
     );

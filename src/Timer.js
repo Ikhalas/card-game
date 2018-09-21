@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
- export class Timer extends Component{
+
+
+export class Timer extends Component{
     constructor(props){
         super(props)
         this.state = {
@@ -9,8 +11,9 @@ import React, { Component } from 'react';
             this.setState({
                 time: this.state.time+1
             })
-        },1000)
+        },1000) //1000 = 1 second
     }
+    
     render(){
         let {time} = this.state
         return(

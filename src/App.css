@@ -67,6 +67,7 @@
   box-shadow: 0 4px 8px 0 rgba(102, 255, 0, 0.2);
   margin: 1em;
   user-select: none;
+  border: solid 1px #c3c3c3;
  }
 
  .activeCard {
