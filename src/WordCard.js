@@ -42,6 +42,8 @@ export default class WordCard extends Component{
             }
             <p>ครั้งที่ : {this.state.attempt}</p>
             <h1>{this.state.complete? "YOU WIN !!" : ""}</h1>
+            
+            
             </div>
         )
     }

@@ -15,6 +15,7 @@
   text-align: center;
   font-size: 70px;
   font-family: 'Courier New', Courier, monospace;
+  
 
 }
 
@@ -24,10 +25,10 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(34, 34, 34);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: yellow;
 }
 
 .App-title {
@@ -48,14 +49,14 @@
   text-align: center;
   width: 3em;
   font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(102, 255, 0, 0.2);
   margin: 1em;
   user-select: none;
  }
 
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(76, 0, 255);
+  background: rgb(4, 255, 213);
  }
 
  body{
