@@ -1,5 +1,21 @@
-.App {
+.page{
+  width: 1200px;
+   margin:auto;
+   background-color: white;
+   border: 2px solid #F5F5F5;
+   border-radius: 4px;
+   box-shadow: 0 0 12px #828282; 
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.Center {
   text-align: center;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 
 .App-logo {
@@ -41,4 +57,10 @@
   color: red;
   background: pink;
  }
+
+ body{
+  background-color:#FFC;
+  font-family: "Athiti", Athiti;
+  font-size:18px;
+}
  
