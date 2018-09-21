@@ -65,12 +65,12 @@
  }
 
  .activeCard {
-  color: rgb(76, 0, 255);
-  background: rgb(4, 255, 213);
+  color: rgb(0, 4, 255);
+  background: rgb(255, 0, 0);
  }
 
  body{
-  background-color:#FFC;
+  background-color:rgb(181, 243, 139);
   font-family: "Athiti", Athiti;
   font-size:18px;
 }
