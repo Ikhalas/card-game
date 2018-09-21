@@ -11,9 +11,14 @@
    
 }
 
+.footer{
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .Center {
   text-align: center;
-  font-size: 70px;
+  font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
   
 

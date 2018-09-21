@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
 import { Timer } from './Timer';
+import { Footer } from './Footer';
 
 
 const word = "HELLO"
@@ -15,7 +16,13 @@ class App extends Component {
         <div className="page">
          <div><WordCard value = {word}/></div>
          <Timer/>
+         <br></br>
          
+        </div>
+        <h1> </h1><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        
+        <div className="page">
+        <Footer/>
         </div>
 
         
