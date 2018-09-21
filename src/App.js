@@ -3,7 +3,7 @@ import './App.css';
 import WordCard from './WordCard';
 import { Timer } from './Timer';
 import { Footer } from './Footer';
-import { Addname } from './Addname';
+
 
 
 
@@ -12,7 +12,8 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      message: "Answer"
+      message: "Answer",
+      type:""
     }
     this.answer = this.answer.bind(this);
   }
@@ -21,6 +22,14 @@ class App extends Component {
     this.setState({message:"HELLO"});
   }
 
+  setName(event){
+    this.setState({type:event.target.value})
+  }
+
+  begin(){
+    alert("BEGIN !!")
+}
+
   
   render() {
     return (
@@ -28,10 +37,18 @@ class App extends Component {
       <div>
          
          <div className="Center"><h1>CARD GAME</h1></div>
-         <div className="Center"><Addname/></div>
+
+         <div className="setName">
+            <p>Enter your name</p>
+            <input type="text" onChange={this.setName.bind(this)} />
+            <button onClick={this.begin}>Start game</button>
+            <p>Welcome : {this.state.type}</p>
+
+         </div>
          <br></br>
 
         <div className="page">
+          
          <div><WordCard value = {word}/></div>
          <Timer/>
          <br></br>
