@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
  export class Addname extends Component{
 
-    login(){
-        alert("## Welcome ##")
+    begin(){
+        alert("BEGIN !!")
     }
   
     render(){
@@ -12,7 +12,8 @@ import React, { Component } from 'react';
             
             <div className="addname">
                 <p>Enter your name</p>
-                <input type="string" onBlur={this.onBlur} />
+                <input type="text" id="userName" name="userName" />
+                <button onClick={this.begin}>Start game</button>
                 
                 
             </div>
